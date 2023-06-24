@@ -10,7 +10,6 @@ import { Analytics } from "@vercel/analytics/react";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      x
       <div className={classnames(karla.variable, "font-sans")}>
         <Component {...pageProps} />
       </div>
